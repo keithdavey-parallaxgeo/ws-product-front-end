@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "httpster -d dist",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "dependencies": {
     "add": "^2.0.6",
